@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Exclude PyTorch model weights and other large files
+*.pt
+*.pth
+
+# Exclude DLLs and compiled binaries (especially from venv)
+*.dll
+*.pyd
+*.so
+*.dylib
+
