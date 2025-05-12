@@ -182,3 +182,8 @@ cython_debug/
 *.so
 *.dylib
 
+venv/
+*.pt
+__pycache__/
+*.pyc
+.env
